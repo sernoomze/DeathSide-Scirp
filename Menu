@@ -3504,9 +3504,9 @@ echo ""
 	00) # ==================================================================================================================
 
 cd /usr/local/bin
-wget -q -O m "https://raw.githubusercontent.com/sernoomze/DeathSide-Scirp/master/Menu"
-chmod +x /usr/local/bin/m
-m
+wget -q -O menu "https://raw.githubusercontent.com/sernoomze/DeathSide-Scirp/master/Menu"
+chmod +x /usr/local/bin/menu
+menu
 
 	;;
 
