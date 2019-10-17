@@ -588,8 +588,8 @@ echo ""
 echo -e "\033[0;32m { DOWNLOAD MENU SCRIPT }${NC} "
 echo ""
 	cd /usr/local/bin
-wget -q -O m "https://raw.githubusercontent.com/sernoomze/DeathSide-Scirp/master/Menu"
-chmod +x /usr/local/bin/m
+wget -q -O menu "https://raw.githubusercontent.com/sernoomze/DeathSide-Scirp/master/Menu"
+chmod +x /usr/local/bin/menu
 	wget -O /usr/local/bin/Auto-Delete-Client "https://raw.githubusercontent.com/sernoomze/DeathSide-Scirp/master/Auto-Delete-Client"
 	chmod +x /usr/local/bin/Auto-Delete-Client 
 	apt-get -y install vnstat
@@ -654,7 +654,7 @@ echo -e "${NC} "
 	esac
 	echo ""
 	echo "===================================================================="
-	echo -e "ติดตั้งสำเร็จ... กรุณาพิมพ์คำสั่ง${RED} m ${NC} เพื่อไปยังขั้นตอนถัดไป"
+	echo -e "ติดตั้งสำเร็จ... กรุณาพิมพ์คำสั่ง${RED} menu ${NC} เพื่อไปยังขั้นตอนถัดไป"
 	echo "===================================================================="
 	echo ""
 	exit
