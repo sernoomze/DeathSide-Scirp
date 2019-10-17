@@ -301,7 +301,7 @@ echo ""
 	if [ $? -eq 0 ]; then
 		read -p "รหัสผ่าน : " -e PASSWORD
 		echo ""
-		echo -e "     ${GRAY}ระบุตัวเลข 30 จะทำให้บัญชีที่สร้างใช้งานไม่ได้ในอีก 30 วัน${NC}"
+		echo -e "     ${GRAY}ระบุตัวเลขจำนวนวันที่เช่า${NC}"
 		read -p "กำหนดวันหมดอายุ : " -e TimeActive
 
 		PROXY=$(grep '^http_port ' /etc/squid/squid.conf | cut -d " " -f 2)
