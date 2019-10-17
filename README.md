@@ -5,4 +5,4 @@ wget https://raw.githubusercontent.com/sernoomze/DeathSide-Scirp/master/Ds-openv
 
 
 
-ติดตั้งเสร็จ พิมพ์ m
+ติดตั้งเสร็จ พิมพ์ menu
