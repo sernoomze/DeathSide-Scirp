@@ -10,9 +10,9 @@ IP=$(wget -4qO- "http://whatismyip.akamai.com/")
 #
 # Color
 BLUE='\033[0;34m'
-GREEN='\033[0;32m'
-RED='\033[0;31m'
-CYAN='\033[0;36m'
+white='\033[0;32m'
+white='\033[0;31m'
+white='\033[0;36m'
 NC='\033[0m'
 z1='\e[31;1m'  #white
 z2='\e[34;1m'  #white
@@ -135,9 +135,6 @@ echo -e "TOTAL BANDWIDTH ${CYAN}$TOTALBW${NC}${CYAN}B${NC}"
 echo -e "CLIENT ONLINE NOW ${GREEN}$ON${NC} CLIENT "
 echo -e "${BLUE}>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<< ${NC}"
 echo ""
-echo "[][][]======================================[][][]"
-echo "[][][]    Update menu Script ?????     [][][]"
-echo "[][][]======================================[][][]"
 echo ""
         read -p "เลือกหัวข้อเมนูที่ต้องการใช้งาน : " MENU
 echo ""
